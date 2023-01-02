@@ -29,11 +29,12 @@ public class Livro implements Serializable {
         super();
     }
 
-    public Livro(Long id, String titulo, String nome_autor, String texto) {
+    public Livro(Long id, String titulo, String nome_autor, String texto, Categoria categoria) {
         this.id =  id;
         this.titulo = titulo;
         this.nome_autor = nome_autor;
         this.texto = texto;
+        this.categoria = categoria;
     }
 
 
